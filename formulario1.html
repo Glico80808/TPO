@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: white ;">
+    <section>
+    <form name= "Formulario" method = "GET" target= "_blank" action = dato.html
+    >Formulario
+    <fieldset>
+    <legend> Datos Personales </legend>
+
+    <p>
+    <label> Nombre:<input type="text" name="nombre" required></p></label>
+    <p>
+    <label> Apellidos:<input type="text" name="nombre" required></p></label>
+    <p>
+    <label> Edad:<input type="number" name="edad" min="18" max="60" required></p></label>
+    <p>
+    <label> Fecha:<input type="date" name="fecha" value: "1940-02-05" required</p></label>
+    <p>
+    <label> Correo:<input type="email" name="correo" size="30" maxlength="10"</p></label>
+    <p>
+    <label> Sitio Web:<input type="url" name="sitioweb" size="30" maxlength="10"</p></label>
+    <p>
+    <lable> Teléfono: <input type "tel" name="telefono"</p></label>  
+    <p>
+    <label>Consulta: <textarea name="comentario" rows="10" cols="40" readonly>Escribe tu consulta...</textarea></p></label>
+    <p>
+    <label> Seleccione turno:<select name="turno">
+    <option>Mañana</option>
+    <option>Tarde</option>
+    <option>Vespertino</option>
+    </select></label></p>
+    <p><label><input type="radio" name="opcion" value= "1" > Opcion 1</label></p>
+    <p><label><input type="radio" name="opcion" value= "2" > Opcion 2</label></p>
+    <p><label><input type="radio" name="opcion" value= "3" > Opcion 3</label></p>
+    <p><label><input type="checkbox" name="cond">Acepto los términos y condiciones </label></p>
+    <input type="reset" value="Borrar">
+    <button type="submit">Enviar Formulario</button>
+    </fieldset>
+    </form>
+    </section>
+    
+</body>
+</html>
