@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/musicstyle.css">
+    <link rel="icon" href="imagenes/Imagen2.ico" type="imagen/ico" 
+</head>
+<body>
+    <div class="container">
+         <div class="navbar">
+              <p><img src= "imagenes/Imagen1.png" alt="logo" height= 100 width= 180 position= left></p>
+              <nav>
+                   <ul id="menuList">
+                 <li><a href= "formulario1musicwebsite.html"> CONTACTO </a></li>
+                 <li><a href= "musicwebsitepag2.html"> ACERCA DE </a></li>
+                 <li><a href= "musicwebsiteform1.html"> PROMO</a></li>
+                 <li><a href= "#"> MERCH </a></li>
+                   </ul>
+              </nav>
+              <p><img src= "imagenes/Imagen1.png" class="menu-icon" onclick="togglemenu()"></p>
+             
+         </div>
+         <div class= "row">
+              <div class="col-1">
+                  <h2> ENIDAS<br> PRIMER (1) EP</h2>
+                  <h3> Disponible en todas las plataformas</h3>
+                  <p>(Edición limitada)</p>
+                  <h4>Es gratis, si vendes tu E G O<h4>
+                  <a href=https://open.spotify.com/artist/0KfScaO02rc4qPzxdaj7UV>
+                  <button type="button"> Comprar</button>
+                  </a>
+              </div>
+              <div class="col-2">
+                  <img src="imagenes/nohascambiadonada.png" width="400" height="400" class="controller">
+                  <div class= "color-box"></div>
+                    <!--div class= "add-btn">
+                    <img src="">
+                    <p><small>Add to cart</small></p>-->
+              </div>
+              </div>
+              <div class="social-links">
+                   <a href=https://www.youtube.com/watch?v=AzzpeZNuV50&t=162s>
+                   <img src= "imagenes/youtube.png">
+                   </a>
+                   <a href= https://open.spotify.com/artist/0KfScaO02rc4qPzxdaj7UV>
+                   <img src= "imagenes/spotify.png">
+                   </a>
+                   <a href=https://www.instagram.com/boicot_eni/?hl=es-la>
+                   <img src= "imagenes/instagram.png">
+                   </a>
+              </div>
+              <script>
+                   var menuList= document.getElementById("menuList");
+                   menuList.style.maxHeight="0px";
+                   function togglemenu(){
+                       if( menuList.style.maxHeight=="0px")
+                       {
+                           menuList.style.maxHeight="130px";
+                       }
+                    else
+                       {
+                           menuList.style.maxHeight="0px";
+                       }
+                   }
+              </script>
+    
+</body>
+</html>
